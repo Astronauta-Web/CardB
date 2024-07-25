@@ -1,0 +1,40 @@
+body {
+  background-color: #180161;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ /*Este es para el primer div*/
+.one {
+  background-color: #FB773C;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  color: #4F1787;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+button {
+  border: 2px solid #EB3678;
+  background-color: #EB3678;
+}
+
+.alinear_izq {
+  display: flex;
+  justify-content: end;
+}
+
+/*con focus se pueden cambiar las propiedades del botón*/
+button:focus {
+  outline: none;
+  border-color: #ff78aa;
+  background-color: #ff78aa;
+  box-shadow: 0 0 5px #ff78aa;
+}
